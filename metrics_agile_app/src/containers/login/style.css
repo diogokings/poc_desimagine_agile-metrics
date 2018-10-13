@@ -1,0 +1,32 @@
+.div-login {
+    padding: 20px;
+    align-items: center;
+    width: 50%;
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+}
+
+button {
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background-color: white;
+    color: #2051ac;
+    padding: 10px 25px 10px;
+    text-align: center;
+    float: right;
+}
+    
+button:hover {
+    background-color: #2051ac;
+    color: white;
+}
